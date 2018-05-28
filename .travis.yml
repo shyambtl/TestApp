@@ -9,5 +9,5 @@ deploy:
   region: "us-east-2"  
   app: "TestApp"
   env: "TestApp-Env"
-  bucket_name: "http://aws-website-parth-jt6bk.s3-website-us-east-1.amazonaws.com"
+  bucket_name: "aws-website-parth-jt6bk.s3-website-us-east-1.amazonaws.com"
   
