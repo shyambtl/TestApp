@@ -1,3 +1,4 @@
+sudo: false
 language: csharp
 solution: TestApp.sln
 dotnet: 2.1.200
@@ -9,4 +10,4 @@ deploy:
   region: "us-east-2"  
   app: "TestApp"
   env: "TestApp-Env"
-  bucket_name: "awscodepipeline-demobucket-parth.s3-website.us-east-2.amazonaws.com"
+  bucket_name: "btltestapp.s3-website.us-east-2.amazonaws.com"
