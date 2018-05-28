@@ -9,5 +9,5 @@ deploy:
     secure: "a7uOOuljHxkbm+K8lP2kPQkTuEvwZC+L7syZFdSv"
   region: "us-east-2"  
   app: "TestApp"
-  env: "TestApp-Env"
+  env: "Testbtlapp-env"
   bucket_name: "btltestapp.s3-website.us-east-2.amazonaws.com"
