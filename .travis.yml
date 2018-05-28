@@ -1,0 +1,3 @@
+language: csharp
+solution: TestApp.sln
+dotnet: 2.1.200
