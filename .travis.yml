@@ -4,10 +4,10 @@ solution: TestApp.sln
 dotnet: 2.1.200
 deploy:
   provider: elasticbeanstalk
-  access_key_id: AKIAJK2C7PNQH3VSFMUA
+  access_key_id: AKIAIGRNKQOQS54BI2LA
   secret_access_key:
-    secure: "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"
+    secure: "iYm5VP2F0VvhWTjttJSO8PDMmy00h5AHIfo4zefH"
   region: "us-east-2"  
   app: "TestApp"
-  env: "Testbtlapp-env"
-  bucket_name: "btltestapp.s3-website.us-east-2.amazonaws.com"
+  env: "Testapp-env"
+  bucket_name: "elasticbeanstalk-us-east-1-912106457730.s3-website-us-east-1.amazonaws.com"
