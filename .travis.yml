@@ -1,17 +1,17 @@
-cache: bundler
-language: csharp
-solution: TestApp.sln
-dotnet: 2.1.200
-script:
-  - dotnet restore
-  - dotnet build ./TestApp/
-deploy:
-  provider: elasticbeanstalk
-  access_key_id: AKIAIGRNKQOQS54BI2LA
-  secret_access_key:
-    secure: "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"
-  region: "us-east-1"  
-  app: "TestApp"
-  env: "Testapp-env"
-  bucket_name: "btldemotestapp.s3-website-us-east-1.amazonaws.com"
-deploy.skip_cleanup: true
+#cache: bundler
+#language: csharp
+#solution: TestApp.sln
+#dotnet: 2.1.200
+#script:
+#  - dotnet restore
+#  - dotnet build ./TestApp/
+#deploy:
+#  provider: elasticbeanstalk
+#  access_key_id: k
+#  secret_access_key:
+#    secure: ""
+#  region: "us-east-1"  
+#  app: ""
+#  env: "-env"
+#  bucket_name: "a"
+# deploy.skip_cleanup: true
